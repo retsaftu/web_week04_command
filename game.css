@@ -1,0 +1,75 @@
+body {
+	margin: 0;
+
+
+	font-size: 15px;
+	line-height: 1.6;
+	color: #fff;
+  background-color: #333;
+	font-family: testov;
+overflow: hidden;
+}
+@font-face {
+		font-family: testov;
+    src: url(assets/fonts/MKtitle.ttf);
+}
+
+
+
+.next{
+	display: flex;
+	justify-content: space-between;
+}
+.logo_nav{
+	width: 300px;
+	display: flex;
+	justify-content: space-between;
+	margin-right: 50px;
+	font-size: 25px;
+}
+.nav_link{
+	color: #fff;
+}
+.nav_link:hover{
+		color: #ef8e24;
+}
+
+.horiz-rule{display:block;margin:-12px 0;position:relative;height:24px;z-index:1}.horiz-rule .bar{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);width:100%;height:2px;background-color:#5a4c30}@media (min-width:768px){.horiz-rule .bar{height:4px}}.horiz-rule .arrow{position:absolute;width:20px;height:4px}@media (min-width:768px){.horiz-rule .arrow{width:40px;height:8px}}.horiz-rule .arrow.arrow-left{left:0}.horiz-rule .arrow.arrow-left.arrow-bottom{-webkit-transform:scaleY(-1);transform:scaleY(-1)}.horiz-rule .arrow.arrow-right{right:0}.horiz-rule .arrow.arrow-right.arrow-top{-webkit-transform:scaleX(-1);transform:scaleX(-1)}.horiz-rule .arrow.arrow-right.arrow-bottom{-webkit-transform:scaleX(-1) scaleY(-1);transform:scaleX(-1) scaleY(-1)}.horiz-rule .arrow.arrow-top{top:-4px}@media (min-width:768px){.horiz-rule .arrow.arrow-top{top:-8px}}.horiz-rule .arrow.arrow-bottom{bottom:-4px}@media (min-width:768px){.horiz-rule .arrow.arrow-bottom{bottom:-8px}}.horiz-rule img.bar{width:100%;height:20px}.horiz-rule img.node{width:auto;height:12px;position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}@media (min-width:768px){.horiz-rule img.node{height:24px}}
+
+.next{
+	height: 150px;
+	font-size: 45px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #ef8e24;
+	z-index: 5;
+}
+.lore{
+	height: 90vh;
+	font-family: 'Raleway', sans-serif;
+	z-index: 5;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url("assets/photo/shoa.png") center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+
+}
+.content_left{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 700px;
+	height: 400px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.content_right{
+	width: 300px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
